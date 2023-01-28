@@ -177,7 +177,10 @@ section {
   clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
 }
 
-.header-content .left-header .h-shape h1 {
+.header-content .left-header h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
   font-size: 2.5rem;
   padding-left: 2rem;
   padding-top: 0.5rem;
@@ -635,7 +638,7 @@ section {
   display: flex;
 }
 
-.buttons{
+.buttons {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -644,7 +647,8 @@ section {
 .contact-content-con .right-contact .i-c-2 :last-child {
   margin-left: 1.5rem;
 }
-.contact-content-con .right-contact .submit-btn , .contact-content-con .right-contact .resume-btn {
+.contact-content-con .right-contact .submit-btn,
+.contact-content-con .right-contact .resume-btn {
   display: flex;
   justify-content: flex-start;
 }
@@ -652,7 +656,6 @@ section {
 .submit-btn .main-btn {
   padding: 12.5px 0;
 }
-
 
 /*Independed components*/
 .btn-con {
